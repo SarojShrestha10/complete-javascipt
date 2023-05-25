@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <!-- <script src="./01_dom.js" defer></script> -->
+  <!-- <script src="./02_selectingElements.js" defer></script> -->
+  <!-- <script src="./03_changeText.js" defer></script> -->
+  <!-- <script src="./04_styleUsingDOM.js" defer></script> -->
+  <!-- <script src="./05_GetAndSet.js" defer></script> -->
+  <!-- <script src="./06_selectMultipleElements.js" defer></script> -->
+  <!-- <script src="./07_loop.js" defer></script> -->
+  <!-- <script src="./08_innerHTML.js" defer></script> -->
+  <!-- <script src="./10_classChange.js" defer></script> -->
+  <!-- <script src="./11_addNewHTML_Element.js" defer></script> -->
+  <!-- <script src="./12_clodeNodes.js" defer></script> -->
+  <!-- <script src="./13_oldMethods.js" defer></script> -->
+  <!-- <script src="./14_static_Vs_live_list.js" defer></script> -->
+  <!-- <script src="./15_getDimensionsOfElements.js" defer></script> -->
+  <!-- <script src="./16_intro_to_events.js" defer></script> -->
+  <!-- <script src="./20_keypress_mouseoverEvent.js" defer></script> -->
+  <script src="./22_todoList_completing.js" defer></script>
+  <title>Learning JavaScript from Scratch to Master</title>
+</head>
+<body>
+  <header class="header">
+    <nav class= "nav container">
+      <h1 class="logo">Website</h1>
+      <ul>
+        <li class="nav-item"><a href="#homepage">Home</a></li>
+        <li class="nav-item"><a href="">ToDO</a></li>
+        <li class="nav-item"><a href="">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="headline">
+      <h2 id = "main-heading">Manage your task</h2>
+      <button class="btn btn-headline">Learn More</button>
+    </div>
+  </header>
+
+  <section class="section-todo container"> Your plan for Today?
+    <form class="form-todo">
+      <input type="text" name="" placeholder="Add ToDo">
+      <input type="submit" value="Add ToDo" class="btn">
+    </form>
+    <ul class="todo-list">
+      <!-- <li class="firstTodo">todo 1</li> -->
+      <!-- <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li> -->
+      <!-- For file 22 Todo List -->
+      <li>
+        <span class="text">Do this do that</span>
+        <div class="todo-buttons">
+          <button class="todo-btn done">Done</button>
+          <button class="todo-btn remove">Remove</button>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section-signup container">
+    <h2>Sign Up</h2>
+
+    <form class="signup-form">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+
+      <div class="form-group">
+        <label for="about">About Yourself</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>      </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
